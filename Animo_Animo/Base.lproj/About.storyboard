@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="VSe-L2-BY6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--About -->
+        <scene sceneID="D5R-vR-NjZ">
+            <objects>
+                <tableViewController id="HVJ-xF-ZaE" customClass="AboutTableViewController" customModule="Animo_Animo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="VsO-aD-oOn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animo logo" id="1E7-HM-9Z3">
+                            <rect key="frame" x="0.0" y="64" width="320" height="170"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="60" id="3HH-Sl-7oT">
+                                <rect key="frame" x="0.0" y="262" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3HH-Sl-7oT" id="Yq8-rN-g92">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydC-6X-Obs">
+                                            <rect key="frame" x="15" y="8" width="290" height="43"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="HVJ-xF-ZaE" id="c3A-fe-ODq"/>
+                            <outlet property="delegate" destination="HVJ-xF-ZaE" id="834-DS-5AX"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="About " id="mmv-sC-n51"/>
+                    <connections>
+                        <segue destination="AmS-fA-Or3" kind="push" identifier="sendEmail" id="LuG-GQ-vTH"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NX2-FJ-m6i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218" y="1020"/>
+        </scene>
+        <!--Sending Emails-->
+        <scene sceneID="TTt-ZF-qHO">
+            <objects>
+                <viewController id="AmS-fA-Or3" customClass="SendingEmails" customModule="Animo_Animo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cdx-8f-ZAt"/>
+                        <viewControllerLayoutGuide type="bottom" id="6gk-lf-hoK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qhD-1g-txi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tell us your feedback by sending emails" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2t-AD-vaF">
+                                <rect key="frame" x="0.0" y="132" width="320" height="55"/>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-BoldItalic" family="Iowan Old Style" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DH0-sC-9T5">
+                                <rect key="frame" x="5" y="226" width="310" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="129" id="6oV-xV-NI4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-BoldItalic" family="Iowan Old Style" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="chawan.saeed02@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jic-X5-1N7">
+                                <rect key="frame" x="36" y="363" width="248" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="sBy-s7-raE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6U-8Q-Ssc">
+                                <rect key="frame" x="14" y="197" width="296" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="iiM-44-NIP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DH0-sC-9T5" firstAttribute="centerX" secondItem="X2t-AD-vaF" secondAttribute="centerX" id="0XH-No-GhU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s6U-8Q-Ssc" secondAttribute="trailing" constant="-6" id="40L-WH-tt0"/>
+                            <constraint firstItem="DH0-sC-9T5" firstAttribute="leading" secondItem="qhD-1g-txi" secondAttribute="leadingMargin" constant="-11" id="8WZ-kH-aC5"/>
+                            <constraint firstItem="DH0-sC-9T5" firstAttribute="top" secondItem="s6U-8Q-Ssc" secondAttribute="bottom" constant="8" symbolic="YES" id="Div-5o-48W"/>
+                            <constraint firstAttribute="trailing" secondItem="X2t-AD-vaF" secondAttribute="trailing" id="F2A-TZ-SEd"/>
+                            <constraint firstItem="DH0-sC-9T5" firstAttribute="centerX" secondItem="jic-X5-1N7" secondAttribute="centerX" id="FUd-Oo-Bfk"/>
+                            <constraint firstItem="jic-X5-1N7" firstAttribute="top" secondItem="DH0-sC-9T5" secondAttribute="bottom" constant="8" symbolic="YES" id="ULM-sP-UYb"/>
+                            <constraint firstItem="s6U-8Q-Ssc" firstAttribute="leading" secondItem="qhD-1g-txi" secondAttribute="leadingMargin" constant="-2" id="VfA-0m-97w"/>
+                            <constraint firstItem="X2t-AD-vaF" firstAttribute="leading" secondItem="qhD-1g-txi" secondAttribute="leading" id="VyV-Xs-F5v"/>
+                            <constraint firstItem="jic-X5-1N7" firstAttribute="leading" secondItem="qhD-1g-txi" secondAttribute="leadingMargin" constant="20" id="dQb-GC-ist"/>
+                            <constraint firstItem="X2t-AD-vaF" firstAttribute="top" secondItem="Cdx-8f-ZAt" secondAttribute="bottom" constant="68" id="qSf-CA-r0G"/>
+                            <constraint firstItem="s6U-8Q-Ssc" firstAttribute="top" secondItem="X2t-AD-vaF" secondAttribute="bottom" constant="10" id="uqj-Gb-IBG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qad-Ql-poE"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="DH0-sC-9T5" id="Dop-AE-YFg"/>
+                        <outlet property="titleLabel" destination="X2t-AD-vaF" id="XrB-c8-NAA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kqt-2E-WwN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613" y="1021"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="Kjz-MJ-hBx">
+            <objects>
+                <navigationController id="VSe-L2-BY6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About" image="about" id="axE-My-KbT"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="shS-Cw-HCX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="HVJ-xF-ZaE" kind="relationship" relationship="rootViewController" id="yOX-DE-nW2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IX1-gB-VLm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-244" y="1020"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="about" width="23" height="22"/>
+        <image name="animo logo" width="170" height="170"/>
+    </resources>
+</document>

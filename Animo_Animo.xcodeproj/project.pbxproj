@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		FF340F2825A8F25C00D20B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF340F2725A8F25C00D20B71 /* AppDelegate.swift */; };
-		FF340F2A25A8F25C00D20B71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF340F2925A8F25C00D20B71 /* ViewController.swift */; };
 		FF340F2D25A8F25C00D20B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF340F2B25A8F25C00D20B71 /* Main.storyboard */; };
-		FF340F2F25A8F25C00D20B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF340F2E25A8F25C00D20B71 /* Assets.xcassets */; };
 		FF340F3225A8F25C00D20B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF340F3025A8F25C00D20B71 /* LaunchScreen.storyboard */; };
+		FF340F3A25A8FCEB00D20B71 /* AnimoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF340F3925A8FCEB00D20B71 /* AnimoTableViewController.swift */; };
+		FF340F3C25A8FD1200D20B71 /* AnimoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF340F3B25A8FD1200D20B71 /* AnimoTableViewCell.swift */; };
+		FF3C889625B069FB002BF001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3C889525B069FB002BF001 /* Assets.xcassets */; };
+		FF3D9BEC25ACF74D00A7B5F0 /* AnimoSuperDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D9BEB25ACF74D00A7B5F0 /* AnimoSuperDetail.swift */; };
+		FF5FF4BA25AB8A94001CA0BA /* AnimoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5FF4B925AB8A94001CA0BA /* AnimoDetail.swift */; };
+		FF812A6A25ADC00600411E22 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF812A6825ADC00600411E22 /* About.storyboard */; };
+		FF812A6C25ADD0A300411E22 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF812A6B25ADD0A300411E22 /* AboutTableViewController.swift */; };
+		FF8BB18625A9001A00296B86 /* Animo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8BB18525A9001900296B86 /* Animo.swift */; };
+		FFB099A125AA5ECF00178DE3 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB099A025AA5ECF00178DE3 /* DetailTableViewController.swift */; };
+		FFB099A325AA5EF200178DE3 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB099A225AA5EF200178DE3 /* DetailTableViewCell.swift */; };
+		FFF3E23125AE0AF600DE37CF /* SendingEmails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF3E23025AE0AF600DE37CF /* SendingEmails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF340F2425A8F25C00D20B71 /* Animo_Animo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animo_Animo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF340F2725A8F25C00D20B71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF340F2925A8F25C00D20B71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF340F2C25A8F25C00D20B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FF340F2E25A8F25C00D20B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF340F3125A8F25C00D20B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF340F3325A8F25C00D20B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF340F3925A8FCEB00D20B71 /* AnimoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimoTableViewController.swift; sourceTree = "<group>"; };
+		FF340F3B25A8FD1200D20B71 /* AnimoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimoTableViewCell.swift; sourceTree = "<group>"; };
+		FF3C889525B069FB002BF001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		FF3D9BEB25ACF74D00A7B5F0 /* AnimoSuperDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimoSuperDetail.swift; sourceTree = "<group>"; };
+		FF5FF4B925AB8A94001CA0BA /* AnimoDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimoDetail.swift; sourceTree = "<group>"; };
+		FF812A6925ADC00600411E22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/About.storyboard; sourceTree = "<group>"; };
+		FF812A6B25ADD0A300411E22 /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		FF8BB18525A9001900296B86 /* Animo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animo.swift; sourceTree = "<group>"; };
+		FFB099A025AA5ECF00178DE3 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		FFB099A225AA5EF200178DE3 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		FFF3E23025AE0AF600DE37CF /* SendingEmails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendingEmails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +73,20 @@
 			isa = PBXGroup;
 			children = (
 				FF340F2725A8F25C00D20B71 /* AppDelegate.swift */,
-				FF340F2925A8F25C00D20B71 /* ViewController.swift */,
+				FF812A6825ADC00600411E22 /* About.storyboard */,
+				FF812A6B25ADD0A300411E22 /* AboutTableViewController.swift */,
+				FFF3E23025AE0AF600DE37CF /* SendingEmails.swift */,
 				FF340F2B25A8F25C00D20B71 /* Main.storyboard */,
-				FF340F2E25A8F25C00D20B71 /* Assets.xcassets */,
+				FF340F3925A8FCEB00D20B71 /* AnimoTableViewController.swift */,
+				FF340F3B25A8FD1200D20B71 /* AnimoTableViewCell.swift */,
 				FF340F3025A8F25C00D20B71 /* LaunchScreen.storyboard */,
+				FF8BB18525A9001900296B86 /* Animo.swift */,
+				FF5FF4B925AB8A94001CA0BA /* AnimoDetail.swift */,
 				FF340F3325A8F25C00D20B71 /* Info.plist */,
+				FFB099A025AA5ECF00178DE3 /* DetailTableViewController.swift */,
+				FFB099A225AA5EF200178DE3 /* DetailTableViewCell.swift */,
+				FF3D9BEB25ACF74D00A7B5F0 /* AnimoSuperDetail.swift */,
+				FF3C889525B069FB002BF001 /* Assets.xcassets */,
 			);
 			path = Animo_Animo;
 			sourceTree = "<group>";
@@ -123,8 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF340F3225A8F25C00D20B71 /* LaunchScreen.storyboard in Resources */,
-				FF340F2F25A8F25C00D20B71 /* Assets.xcassets in Resources */,
+				FF812A6A25ADC00600411E22 /* About.storyboard in Resources */,
 				FF340F2D25A8F25C00D20B71 /* Main.storyboard in Resources */,
+				FF3C889625B069FB002BF001 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF340F2A25A8F25C00D20B71 /* ViewController.swift in Sources */,
+				FFB099A325AA5EF200178DE3 /* DetailTableViewCell.swift in Sources */,
+				FF340F3A25A8FCEB00D20B71 /* AnimoTableViewController.swift in Sources */,
+				FFB099A125AA5ECF00178DE3 /* DetailTableViewController.swift in Sources */,
+				FF340F3C25A8FD1200D20B71 /* AnimoTableViewCell.swift in Sources */,
+				FF8BB18625A9001A00296B86 /* Animo.swift in Sources */,
 				FF340F2825A8F25C00D20B71 /* AppDelegate.swift in Sources */,
+				FFF3E23125AE0AF600DE37CF /* SendingEmails.swift in Sources */,
+				FF5FF4BA25AB8A94001CA0BA /* AnimoDetail.swift in Sources */,
+				FF3D9BEC25ACF74D00A7B5F0 /* AnimoSuperDetail.swift in Sources */,
+				FF812A6C25ADD0A300411E22 /* AboutTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +193,14 @@
 				FF340F3125A8F25C00D20B71 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FF812A6825ADC00600411E22 /* About.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF812A6925ADC00600411E22 /* Base */,
+			);
+			name = About.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,6 +330,7 @@
 				FF340F3825A8F25C00D20B71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
